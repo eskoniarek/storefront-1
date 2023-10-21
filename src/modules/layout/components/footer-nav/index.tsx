@@ -77,33 +77,21 @@ const FooterNav = () => {
             </div>
           )}
           <div className="flex flex-col gap-y-2">
-            <span className="text-base-semi">Medusa</span>
+            <span className="text-base-semi">Legals</span>
             <ul className="grid grid-cols-1 gap-y-2">
+            <li>
+                <Link href={'/tc'}>Terms and Conditions</Link>
+              </li>
               <li>
-                <a
-                  href="https://github.com/medusajs"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
+              <Link href={'/tc'}>Privacy Policy</Link>
               </li>
               <li>
                 <a
-                  href="https://docs.medusajs.com"
+                  href="mailto:support@printinc.shop"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/medusajs/nextjs-starter-medusa"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Source code
+                  Support
                 </a>
               </li>
             </ul>
