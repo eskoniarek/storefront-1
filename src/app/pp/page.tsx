@@ -35,7 +35,7 @@ const PrivacyPolicy = () => {
                     <p>The Customer can pay for its purchase in the manner specified on the Website. Printinc is entitled to charge the Customer already in connection with the order. Printinc reserves the right not to offer all payment methods at all times, alternatively change payment method if the payment method the Customer has selected does not work, for whichever reasons, at the time of fulfilment of the order. Please note that limitations of available payment methods are set forth on the Website.</p>
 
                     <h2 className="text-xl font-semibold">8. DELIVERY AND SHIPPING</h2>
-                    <p>Since we offer digital products only, items in stock are normally delivered within the 1 working day set forth on the Website (Usually in a few minutes). If you haven't received your order within the delivery time advertised, please contact our Customer Service no longer than 30 working days after the order was placed.</p>
+                    <p>Since we offer digital products only, items in stock are normally delivered within the 1 working day set forth on the Website (Usually in a few minutes). If you have not received your order within the delivery time advertised, please contact our Customer Service no longer than 30 working days after the order was placed.</p>
 
                     <h2 className="text-xl font-semibold">9. RIGHT OF WITHDRAWAL</h2>
                     <p>By accepting the General Conditions, the Customer acknowledges and agrees that the right of withdrawal is not valid for any digital content delivered.</p>
@@ -50,7 +50,7 @@ const PrivacyPolicy = () => {
                     <p>If any provision of this Agreement is held to be invalid or unenforceable by any competent court, authority or arbitral tribunal, the remainder of that provision and all other provisions will remain valid and enforceable to the fullest extent permitted by applicable law. Any provisions determined invalid or unenforceable will be substituted by relevant legal guidance and advice.</p>
 
                     <h2 className="text-xl font-semibold">15. APPLICABLE LAW AND DISPUTE RESOLUTIONS</h2>
-                    <p>Printinc shall not be liable or deemed to be in breach of contract by reason of any delay in performing, or failure to perform, any of its obligations if the delay or failure was due to any cause beyond its reasonable control. Notwithstanding contrary clauses in this Agreement, in the event that printinc.shop are deemed liable to you for breach of this Agreement, you agree that printinc.shop's liability is limited to the amount actually paid by you for your services, which amount calculated in reliance upon this clause. You hereby release Printinc from any and all obligations, liabilities and claims in excess of this limitation.</p>
+                    <p>Printinc shall not be liable or deemed to be in breach of contract by reason of any delay in performing, or failure to perform, any of its obligations if the delay or failure was due to any cause beyond its reasonable control. Notwithstanding contrary clauses in this Agreement, in the event that printinc.shop are deemed liable to you for breach of this Agreement, you agree that printinc.shop liability is limited to the amount actually paid by you for your services, which amount calculated in reliance upon this clause. You hereby release Printinc from any and all obligations, liabilities and claims in excess of this limitation.</p>
                 </div>
             </main>
             <Footer />

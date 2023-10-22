@@ -44,7 +44,7 @@ const TermsAndConditions = () => {
 
                     <section className="space-y-4">
                         <h2 className="text-2xl font-semibold text-slate-800">8. DELIVERY AND SHIPPING</h2>
-                        <p>Since we offer digital products only, items in stock are normally delivered within the 1 working day set forth on the Website (Usually in a few minutes). If you haven't received your order within the delivery time advertised, please contact our Customer Service no longer than 30 working days after the order was placed.</p>
+                        <p>Since we offer digital products only, items in stock are normally delivered within the 1 working day set forth on the Website (Usually in a few minutes). If you haven not received your order within the delivery time advertised, please contact our Customer Service no longer than 30 working days after the order was placed.</p>
                     </section>
 
                     <section className="space-y-4">
@@ -69,7 +69,7 @@ const TermsAndConditions = () => {
 
                     <section className="space-y-4">
                         <h2 className="text-2xl font-semibold text-slate-800">15. APPLICABLE LAW AND DISPUTE RESOLUTIONS</h2>
-                        <p>Printinc shall not be liable or deemed to be in breach of contract by reason of any delay in performing, or failure to perform, any of its obligations if the delay or failure was due to any cause beyond its reasonable control. Notwithstanding contrary clauses in this Agreement, in the event that printinc.shop are deemed liable to you for breach of this Agreement, you agree that printinc.shop's liability is limited to the amount actually paid by you for your services, which amount calculated in reliance upon this clause. You hereby release Printinc from any and all obligations, liabilities and claims in excess of this limitation.</p>
+                        <p>Printinc shall not be liable or deemed to be in breach of contract by reason of any delay in performing, or failure to perform, any of its obligations if the delay or failure was due to any cause beyond its reasonable control. Notwithstanding contrary clauses in this Agreement, in the event that printinc.shop are deemed liable to you for breach of this Agreement, you agree that printinc.shop liability is limited to the amount actually paid by you for your services, which amount calculated in reliance upon this clause. You hereby release Printinc from any and all obligations, liabilities and claims in excess of this limitation.</p>
                     </section>
                 </div>
             </main>
