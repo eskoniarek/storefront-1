@@ -5,6 +5,8 @@ import LineItemPrice from "@modules/common/components/line-item-price"
 import Thumbnail from "@modules/products/components/thumbnail"
 import SkeletonLineItem from "@modules/skeletons/components/skeleton-line-item"
 import Link from "next/link"
+import Button from "@modules/common/components/button"
+import medusaRequest from "../../../../lib/medusa-fetch"
 
 type ItemsProps = {
   items: LineItem[]
@@ -14,6 +16,10 @@ type ItemsProps = {
 
 const Items = ({ items, region, cartId }: ItemsProps) => {
   const enrichedItems = useEnrichedLineItems(items, cartId)
+
+  const handleDownload = async (variant_id: string) => {
+    window.location.href = `${process.env.NEXT_PUBLIC_BASE_URL}/api/download/main/${variant_id}`
+  }
 
   return (
     <div className="p-10 border-b border-gray-200 gap-y-4 flex flex-col">
@@ -40,6 +46,11 @@ const Items = ({ items, region, cartId }: ItemsProps) => {
                       </div>
                       <div className="flex justify-end">
                         <LineItemPrice region={region} item={item} />
+                        <Button 
+                          variant="secondary" 
+                          onClick={() => handleDownload(item.variant.id)}>
+                          Download
+                        </Button>
                       </div>
                     </div>
                   </div>

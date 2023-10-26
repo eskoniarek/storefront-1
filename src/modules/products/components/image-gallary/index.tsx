@@ -38,7 +38,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
                 className="absolute inset-0"
                 alt="Thumbnail"
                 fill
-                sizes="100vw"
+                sizes="70vw"
                 style={{
                   objectFit: "cover",
                 }}
@@ -62,7 +62,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
                 className="absolute inset-0"
                 alt={`Product image ${index + 1}`}
                 fill
-                sizes="100vw"
+                sizes="80vw"
                 style={{
                   objectFit: "cover",
                 }}

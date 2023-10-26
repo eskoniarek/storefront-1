@@ -38,6 +38,7 @@ const OrderCompletedTemplate: React.FC<OrderCompletedTemplateProps> = ({
             <ShippingDetails
               shippingMethods={order.shipping_methods}
               address={order.shipping_address}
+              email={order.email}
             />
             <OrderSummary order={order} />
           </div>

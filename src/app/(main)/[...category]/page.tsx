@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = product_categories[0]
 
   return {
-    title: `${category.name} | Print Inc. Shop`,
-    description: `${category.name} category`,
+    title: `Print Inc. Shop`, // Removed category name from title
+    // Removed category description
   }
 }
 

@@ -3,6 +3,7 @@
 # IDEs
 .idea
 .vscode
+.easyRedis.redis 
 
 # dependencies
 /node_modules

@@ -18,7 +18,7 @@ const FooterCTA = () => {
             alt=""
             className="absolute inset-0"
             fill
-            sizes="100vw"
+            sizes="70vw"
             style={{
               objectFit: "cover",
             }}
