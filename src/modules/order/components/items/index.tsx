@@ -5,8 +5,8 @@ import LineItemPrice from "@modules/common/components/line-item-price"
 import Thumbnail from "@modules/products/components/thumbnail"
 import SkeletonLineItem from "@modules/skeletons/components/skeleton-line-item"
 import Link from "next/link"
+import medusaRequest from "@medusajs/medusa"
 import Button from "@modules/common/components/button"
-import medusaRequest from "../../../../lib/medusa-fetch"
 
 type ItemsProps = {
   items: LineItem[]
